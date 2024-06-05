@@ -1,0 +1,114 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #14361f;
+    font-size: xxx-large;
+}
+
+h3{
+    text-align: right;
+    padding-right: 20px;
+    color: #14361f;
+    font-style: italic;
+}
+div.navbar {
+    width: 100%;
+    display:flex;
+}
+div.options{
+    background-color: #14361f;
+    color: white;
+    width: 33%;
+    /* border: 1px solid whitesmoke;
+    border-collapse: collapse; */
+    padding: 10px;
+    text-align: center;
+}
+div.options:hover{
+    background-color: #edfff3;
+    color: rgb(23, 139, 72);
+    border-left: 10px solid rgb(23, 139, 72);
+}
+
+
+div.options a:link,
+div.options a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+div.options a:hover {
+    color: rgba(116, 6, 6, 0.863);
+    text-decoration: underline;
+}
+
+div.options a:active {
+    color: rgb(255, 0, 149);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li.done {
+    list-style-type: square; /* Set the bullet point to a square */
+    text-decoration: line-through; /* Add a line-through to the text */
+}
+
+
+
+.topheading {
+    padding: 20px;
+    background-image: url("https://files.123freevectors.com/wp-content/original/111484-light-color-blurred-background-vector.jpg");
+}
+
+#todo {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin:20px 5%;
+    border: 1px dotted #42a162;
+    border-radius: 5px;
+    /* display:flex; */
+    /* justify-content: center; */
+}
+
+iframe {
+    width: 75%;
+    height: 500px;
+    border: none;
+
+}
+
+.fram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-image: url("https://files.123freevectors.com/wp-content/original/202630-simple-light-color-background-illustration.jpg");
+
+}
+.cards{
+    border: 1px solid #14361f;
+    border-radius: 5px;
+    background-color:#d9f8e3 ;
+    /* text-align: center; */
+    margin: 20px;
+    width:200px;
+    height: 200px;
+
+      /* Flexbox properties for centering */
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center;     /* Center vertically */
+}
